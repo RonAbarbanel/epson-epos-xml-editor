@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+<?php
+/*
+Template Name: Add Activity
+Template Post Type: page
+*/
+?>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -8,15 +14,15 @@
 
     <title>ePOS-Print Editor</title>
 
-    <link type="text/css" href="css/smoothness/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
-    <link type="text/css" href="css/epos-print-editor.css" rel="stylesheet" />
+    <link type="text/css" href="epson/css/smoothness/jquery-ui-1.8.18.custom.css" rel="stylesheet" />
+    <link type="text/css" href="epson/css/epos-print-editor.css" rel="stylesheet" />
 
-    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui-1.8.18.custom.min.js"></script>
-    <script type="text/javascript" src="js/jquery.ui.touch-punch.min.js"></script>
-    <script type="text/javascript" src="js/epos-2.14.0.js"></script>
-    <script type="text/javascript" src="js/epos-print-editor-en.js"></script>
-    <script type="text/javascript" src="js/epos-print-editor.js"></script>
+    <script type="text/javascript" src="epson/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="epson/js/jquery-ui-1.8.18.custom.min.js"></script>
+    <script type="text/javascript" src="epson/js/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="epson/js/epos-2.14.0.js"></script>
+    <script type="text/javascript" src="epson/js/epos-print-editor-en.js"></script>
+    <script type="text/javascript" src="epson/js/epos-print-editor.js"></script>
 </head>
 <body>
 
@@ -41,7 +47,7 @@
                         <!-- Alignment -->
                         <li class="epos-text-align edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/text-align.png" alt="text-align" /><br />
+                                <img src="epson/img/text-align.png" alt="text-align" /><br />
                                 Align
                             </div>
                             <div class="edit-content">
@@ -64,7 +70,7 @@
                         <!-- Line Spacing -->
                         <li class="epos-text-linespc edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/text-linespc.png" alt="text-linespc" /><br />
+                                <img src="epson/img/text-linespc.png" alt="text-linespc" /><br />
                                 Linespc
                             </div>
                             <div class="edit-content">
@@ -83,7 +89,7 @@
                         <!-- Upside-down -->
                         <li class="epos-text-rotate edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/text-rotate.png" alt="text-rotate" /><br />
+                                <img src="epson/img/text-rotate.png" alt="text-rotate" /><br />
                                 Rotate
                             </div>
                             <div class="edit-content">
@@ -106,7 +112,7 @@
                         <!-- Language -->
                         <li class="epos-text-lang edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/text-lang.png" alt="text-lang" /><br />
+                                <img src="epson/img/text-lang.png" alt="text-lang" /><br />
                                 Lang
                             </div>
                             <div class="edit-content">
@@ -135,7 +141,7 @@
                         <!-- Font -->
                         <li class="epos-text-font edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/text-font.png" alt="text-font" /><br />
+                                <img src="epson/img/text-font.png" alt="text-font" /><br />
                                 Font
                             </div>
                             <div class="edit-content">
@@ -162,7 +168,7 @@
                         <!-- Horizontal Position -->
                         <li class="epos-text-position edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/text-position.png" alt="text-position" /><br />
+                                <img src="epson/img/text-position.png" alt="text-position" /><br />
                                 Position
                             </div>
                             <div class="edit-content">
@@ -181,7 +187,7 @@
                         <!-- Vertical Position -->
                         <li class="epos-text-vposition edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/text-vposition.png" alt="text-vposition" /><br />
+                                <img src="epson/img/text-vposition.png" alt="text-vposition" /><br />
                                 Position
                                 <span class="tooltip">[v3.0-]</span>
                             </div>
@@ -201,7 +207,7 @@
                         <!-- Smoothing -->
                         <li class="epos-text-smooth edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/text-smooth.png" alt="text-smooth" /><br />
+                                <img src="epson/img/text-smooth.png" alt="text-smooth" /><br />
                                 Smooth
                             </div>
                             <div class="edit-content">
@@ -219,7 +225,7 @@
                         <!-- Size -->
                         <li class="epos-text-size edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/text-size.png" alt="text-size" /><br />
+                                <img src="epson/img/text-size.png" alt="text-size" /><br />
                                 Size
                             </div>
                             <div class="edit-content">
@@ -240,7 +246,7 @@
                         <!-- Double -->
                         <li class="epos-text-double edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/text-double.png" alt="text-double" /><br />
+                                <img src="epson/img/text-double.png" alt="text-double" /><br />
                                 Double
                             </div>
                             <div class="edit-content">
@@ -259,7 +265,7 @@
                         <!-- Style -->
                         <li class="epos-text-style edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/text-style.png" alt="text-style" /><br />
+                                <img src="epson/img/text-style.png" alt="text-style" /><br />
                                 Style
                             </div>
                             <div class="edit-content">
@@ -288,7 +294,7 @@
                         <!-- Text -->
                         <li class="epos-text edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/text.png" alt="text" /><br />
+                                <img src="epson/img/text.png" alt="text" /><br />
                                 Text
                             </div>
                             <div class="edit-content">
@@ -312,7 +318,7 @@
                         <!-- By Unit -->
                         <li class="epos-feed-unit edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/feed-unit.png" alt="feed-unit" /><br />
+                                <img src="epson/img/feed-unit.png" alt="feed-unit" /><br />
                                 By Unit
                             </div>
                             <div class="edit-content">
@@ -331,7 +337,7 @@
                         <!-- By Line -->
                         <li class="epos-feed-line edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/feed-line.png" alt="feed-line" /><br />
+                                <img src="epson/img/feed-line.png" alt="feed-line" /><br />
                                 By Line
                             </div>
                             <div class="edit-content">
@@ -350,7 +356,7 @@
                         <!-- Line Feed -->
                         <li class="epos-feed edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/feed.png" alt="feed" /><br />
+                                <img src="epson/img/feed.png" alt="feed" /><br />
                                 LF
                             </div>
                             <div class="edit-content">
@@ -367,7 +373,7 @@
                         <!-- Label Paper -->
                         <li class="epos-feed-pos edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/feed-pos.png" alt="feed-pos" /><br />
+                                <img src="epson/img/feed-pos.png" alt="feed-pos" /><br />
                                 Label<br />
                                 <span class="tooltip">[v2.1-] TM-L90, TM-P60II, TM-P80, TM-P20</span>
                             </div>
@@ -397,7 +403,7 @@
                         <!-- Image -->
                         <li class="epos-image edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/image.png" alt="image" /><br />
+                                <img src="epson/img/image.png" alt="image" /><br />
                                 Image
                             </div>
                             <div class="edit-content">
@@ -406,7 +412,7 @@
                                 <input class="attr-image-load" type="button" value="Load" />
                                 <br />
                                 <span class="tooltip">The file must be in the same domain as the current Web page.</span>
-                                <img class="attr-image" src="img/default.png" alt="" />
+                                <img class="attr-image" src="epson/img/default.png" alt="" />
                                 <br />
                                 <label><input class="attr-image-fit" type="checkbox" value="" />Scale to Fit Paper Width</label>
                                 <br />
@@ -446,7 +452,7 @@
                         <!-- NV Logo -->
                         <li class="epos-logo edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/logo.png" alt="logo" /><br />
+                                <img src="epson/img/logo.png" alt="logo" /><br />
                                 NV Logo
                             </div>
                             <div class="edit-content">
@@ -472,7 +478,7 @@
                         <!-- Bar Code -->
                         <li class="epos-barcode edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/barcode.png" alt="barcode" /><br />
+                                <img src="epson/img/barcode.png" alt="barcode" /><br />
                                 Barcode
                             </div>
                             <div class="edit-content">
@@ -536,7 +542,7 @@
                         <!-- Symbol -->
                         <li class="epos-symbol edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/symbol.png" alt="symbol" /><br />
+                                <img src="epson/img/symbol.png" alt="symbol" /><br />
                                 Symbol
                             </div>
                             <div class="edit-content">
@@ -610,7 +616,7 @@
                         <!-- Horizontal -->
                         <li class="epos-hline edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/hline.png" alt="hline" /><br />
+                                <img src="epson/img/hline.png" alt="hline" /><br />
                                 HLine<br />
                                 <span class="tooltip">Only for supported models</span>
                             </div>
@@ -641,7 +647,7 @@
                         <!-- Vertical (Start) -->
                         <li class="epos-vline-begin edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/vline-begin.png" alt="vline-begin" /><br />
+                                <img src="epson/img/vline-begin.png" alt="vline-begin" /><br />
                                 Start<br />
                                 <span class="tooltip">Only for supported models</span>
                             </div>
@@ -670,7 +676,7 @@
                         <!-- Vertical (End) -->
                         <li class="epos-vline-end edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/vline-end.png" alt="vline-end" /><br />
+                                <img src="epson/img/vline-end.png" alt="vline-end" /><br />
                                 End<br />
                                 <span class="tooltip">Only for supported models</span>
                             </div>
@@ -704,7 +710,7 @@
                         <!-- Start -->
                         <li class="epos-page-begin edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/page-begin.png" alt="page-begin" /><br />
+                                <img src="epson/img/page-begin.png" alt="page-begin" /><br />
                                 Start
                             </div>
                             <div class="edit-content">
@@ -721,7 +727,7 @@
                         <!-- Print Area -->
                         <li class="epos-area edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/area.png" alt="area" /><br />
+                                <img src="epson/img/area.png" alt="area" /><br />
                                 Area
                             </div>
                             <div class="edit-content">
@@ -746,7 +752,7 @@
                         <!-- Direction -->
                         <li class="epos-direction edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/direction.png" alt="direction" /><br />
+                                <img src="epson/img/direction.png" alt="direction" /><br />
                                 Direction
                             </div>
                             <div class="edit-content">
@@ -770,7 +776,7 @@
                         <!-- Print Position -->
                         <li class="epos-position edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/position.png" alt="position" /><br />
+                                <img src="epson/img/position.png" alt="position" /><br />
                                 Position
                             </div>
                             <div class="edit-content">
@@ -791,7 +797,7 @@
                         <!-- Line -->
                         <li class="epos-line edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/line.png" alt="line" /><br />
+                                <img src="epson/img/line.png" alt="line" /><br />
                                 Line<br />
                                 <span class="tooltip">TM-T88VI, TM-P60II, TM-P80, TM-P20, TM-T20III, TM-T82III, TM-m10, TM-m30, TM-m30II, TM-m30II-H, TM-m50</span>
                             </div>
@@ -826,7 +832,7 @@
                         <!-- Rectangle -->
                         <li class="epos-rectangle edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/rectangle.png" alt="rectangle" /><br />
+                                <img src="epson/img/rectangle.png" alt="rectangle" /><br />
                                 Rect<br />
                                 <span class="tooltip">TM-T88VI, TM-P60II, TM-P80, TM-P20, TM-T20III, TM-T82III, TM-m10, TM-m30, TM-m30II, TM-m30II-H, TM-m50</span>
                             </div>
@@ -861,7 +867,7 @@
                         <!-- End -->
                         <li class="epos-page-end edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/page-end.png" alt="page-end" /><br />
+                                <img src="epson/img/page-end.png" alt="page-end" /><br />
                                 End
                             </div>
                             <div class="edit-content">
@@ -883,7 +889,7 @@
                         <!-- Rotate Start -->
                         <li class="epos-rotate-begin edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/rotate-begin.png" alt="rotate-begin" /><br />
+                                <img src="epson/img/rotate-begin.png" alt="rotate-begin" /><br />
                                 Rotate S<br />
                                 <span class="tooltip">TM-m30II, TM-m30II-H, TM-m50</span>
                             </div>
@@ -899,7 +905,7 @@
                         <!-- Rotate End -->
                         <li class="epos-rotate-end edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/rotate-end.png" alt="rotate-end" /><br />
+                                <img src="epson/img/rotate-end.png" alt="rotate-end" /><br />
                                 Rotate E<br />
                                 <span class="tooltip">TM-m30II, TM-m30II-H, TM-m50</span>
                             </div>
@@ -920,7 +926,7 @@
                         <!-- Paper Cutting -->
                         <li class="epos-cut edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/cut.png" alt="cut" /><br />
+                                <img src="epson/img/cut.png" alt="cut" /><br />
                                 Cut
                             </div>
                             <div class="edit-content">
@@ -943,7 +949,7 @@
                         <!-- Drawer Kick-out -->
                         <li class="epos-pulse edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/pulse.png" alt="pulse" /><br />
+                                <img src="epson/img/pulse.png" alt="pulse" /><br />
                                 Drawer
                             </div>
                             <div class="edit-content">
@@ -974,7 +980,7 @@
                         <!-- Buzzer -->
                         <li class="epos-sound edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/sound.png" alt="sound" /><br />
+                                <img src="epson/img/sound.png" alt="sound" /><br />
                                 Buzzer
                                 <span class="tooltip">TM-T88VI, TM-T88V, TM-T70II, TM-P60II, TM-P80, TM-P20, TM-T20, TM-T20II, TM-T20III, TM-T82II, TM-T82III, TM-T83II, TM-U330, TM-m10, TM-m30, TM-m30II, TM-m30II-H, TM-m50</span>
                             </div>
@@ -1019,7 +1025,7 @@
                         <!-- Layout -->
                         <li class="epos-layout edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/layout.png" alt="layout" /><br />
+                                <img src="epson/img/layout.png" alt="layout" /><br />
                                 Layout
                                 <span class="tooltip">[v2.2-] TM-P60II, TM-P80, TM-P20</span>
                             </div>
@@ -1059,7 +1065,7 @@
                         <!-- Recovery -->
                         <li class="epos-recovery edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/recovery.png" alt="recovery" /><br />
+                                <img src="epson/img/recovery.png" alt="recovery" /><br />
                                 Recovery
                                 <span class="tooltip">[v3.0-]</span>
                             </div>
@@ -1077,7 +1083,7 @@
                         <!-- Reset -->
                         <li class="epos-reset edit-icon ui-state-default">
                             <div class="edit-caption tooltip-text">
-                                <img src="img/reset.png" alt="reset" /><br />
+                                <img src="epson/img/reset.png" alt="reset" /><br />
                                 Reset
                                 <span class="tooltip">[v3.0-]</span>
                             </div>
@@ -1095,7 +1101,7 @@
                         <!-- Command -->
                         <li class="epos-command edit-icon ui-state-default">
                             <div class="edit-caption">
-                                <img src="img/command.png" alt="command" /><br />
+                                <img src="epson/img/command.png" alt="command" /><br />
                                 Cmd
                             </div>
                             <div class="edit-content">
@@ -1155,7 +1161,7 @@
         <div id="preview-paper">
             <div id="preview-width">
                 <span>512</span><br />
-                <img src="img/v.png" alt="" /><img src="img/h.png" width="510" height="10" alt="" /><img src="img/v.png" alt="" /><br />
+                <img src="epson/img/v.png" alt="" /><img src="epson/img/h.png" width="510" height="10" alt="" /><img src="epson/img/v.png" alt="" /><br />
             </div>
         </div>
         <div class="preview-break"></div>
